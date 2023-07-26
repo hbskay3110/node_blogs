@@ -1,0 +1,29 @@
+{
+  "name": "blognodejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --inspect index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hbskay3110/node_blogs.git"
+  },
+  "keywords": [
+    "blog"
+  ],
+  "author": "kien",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hbskay3110/node_blogs/issues"
+  },
+  "homepage": "https://github.com/hbskay3110/node_blogs#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
