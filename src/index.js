@@ -5,17 +5,17 @@ const exphbs = require('express-handlebars'); // Use exphbs instead of handlebar
 const app = express();
 const port = 3000;
 
-const route = require('./routes');
+   const route = require('./routes');
 
 app.use(
     express.urlencoded({
         extended: true,
     }),
 );
-app.use(express.json());
+       app.use(express.json());
 // static file
-app.use(express.static(path.join(__dirname, 'public')));
-app.use(morgan('combined'));
+app.use(express.static(    path.join(__dirname, 'public')));
+    app.use(morgan('combined'));
 console.log(__dirname);
 // Template engine setup
 app.engine(
